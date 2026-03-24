@@ -1,0 +1,18 @@
+HighCPUUtilization:
+- Metric: CPUUtilization
+- Threshold: 80%
+- Period: 5 minutes
+- Evaluation periods: 2
+- Action: SNS notification
+
+HighMemoryUtilization:
+- Metric: MemoryUtilization (CWAgent)
+- Threshold: 85%
+- Period: 5 minutes
+- Evaluation periods: 2
+
+LowDiskSpace:
+- Metric: disk_used_percent (CWAgent)
+- Threshold: 80%
+- Period: 5 minutes
+- Evaluation periods: 1

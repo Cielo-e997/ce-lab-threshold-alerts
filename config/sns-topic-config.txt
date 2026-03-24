@@ -1,0 +1,7 @@
+arn:aws:sns:eu-central-1:170638199494:CloudWatchAlerts
+Topic Name: CloudWatchAlerts
+Topic ARN: <tu ARN real>
+
+Subscription Protocol: email
+Subscription Endpoint: ccieloescobar@gmail.com
+Status: Confirmed
